@@ -1,0 +1,45 @@
+/* Definindo altura máxima para os elementos principais */
+html,
+body,
+#app{
+    height: 100%;
+    margin: 0;
+}
+
+/* 1° Passo: colocar um display flex no ELEMENTO PAI */
+#app{
+    display: flex;
+
+    /* Mudando a direçao do flex com flex-direction. Padrão é row */
+    flex-direction: column;
+
+    /* No flex-direction: colum há uma inversão do align-items, que passa a alinhar horizontalmente, enquanto o justify-content passa a alinhar verticalmente */
+
+    /* Propriedades mais usadas no flex-box: align-items e justify-content */
+    /*     
+        Padrão: alinhamento vertical
+        * Propriedades principais:
+            - flex-start: alinha  horizontalmente sempre no início;
+            - center: alinha horizontalmente no centro da view;
+            - flex-end: alinha  horizontalmente sempre no final.
+     */
+    align-items:center; 
+
+    /*     
+        Padrão: alinhamento horizontal
+        * Propriedades principais:
+            - flex-start: alinha verticalmente sempre no início;
+            - center: alinha verticamente no centro da view;
+            - flex-end: alinha verticalmente sempre no final;
+            - space-between: coloca um espaço igual entre todos os itens da div/elemento pai. Não coloca espaço no início ou no final, somente no meio;
+            - space-around: além de um espaço entre os elementos, adiciona também no começo e no fim;
+     */
+    justify-content: space-around; /* Padrão: alinahmento horizontal */
+}
+
+.box{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    margin: 5px;
+}

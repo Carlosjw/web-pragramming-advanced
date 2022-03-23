@@ -1,0 +1,27 @@
+html,
+body,
+#app{
+    height: 100%;
+    margin: 0;
+}
+
+#app{
+    display: flex;
+}
+
+.box{
+    width: 300px;
+    height: 60px;
+    background-color: red;
+    margin: 5px;
+
+    /* flex-grow: diz que o elemento aceita ser aumentdado para caber no elemento pai */
+    flex-grow: 1;
+
+    /* flex-shrink: diz se o elemento aceita ou não ser expremido para caber na tela. O valor padrão dele é 0(zero) que significa "não" */
+    flex-shrink: 1;
+
+    /* flex: é a junção do flex-grow e o flex-shrink. Aceita um valor (para somente o valor do flex-grow e o flex-shrink no seu valor padrão), ou  dois para setar o valor em ambas as propriedades */
+    flex: 1;
+
+}

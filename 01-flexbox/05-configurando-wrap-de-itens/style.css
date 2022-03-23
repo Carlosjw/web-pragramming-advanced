@@ -1,0 +1,27 @@
+html,
+body,
+#app{
+    height: 100%;
+    margin: 0;
+}
+
+#app{
+    display: flex;
+
+    /* adicionando uma quebra de linha no blex-box com o flex-wrap */
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: space-between;
+
+    /* alinhando os elementos quando estão em mais de uma linha quebrada - align-content. Possui as mesmas propriedades do justify-content */
+    align-content: center;
+}
+
+.box{
+    width: 350px;
+    height: 60px;
+    background: #f00;
+    margin: 5px;
+    /* flex: 1; */
+}

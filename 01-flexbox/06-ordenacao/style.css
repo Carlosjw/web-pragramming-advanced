@@ -1,0 +1,32 @@
+html,
+body,
+#app{
+    height: 100%;
+    margin: 0;
+}
+
+#app{
+    display: flex;
+}
+
+.box{
+    width: 380px;
+    height: 60px;
+    background: #f00;
+    margin: 5px;
+}
+
+/* Alerando a ordem dos elementos com a propriedade order */
+.red{
+    order: 1;
+}
+
+.green{
+    background: green;
+    order: 2;
+}
+
+.blue{
+    background: blue;
+    order: 0;
+}
