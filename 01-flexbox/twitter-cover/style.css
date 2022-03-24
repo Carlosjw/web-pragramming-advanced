@@ -307,10 +307,7 @@ div.wrapper-content aside.profile .widget strong img {
 div.wrapper-content aside.profile .followers ul{
     list-style: none; 
     display: flex; 
-    flex-wrap: wrap; 
-    align-content: flex-start;
-    align-items: flex-start;
-
+    flex-wrap: wrap;
 }
 
 div.wrapper-content aside.profile .followers ul li {
@@ -318,6 +315,22 @@ div.wrapper-content aside.profile .followers ul li {
     height: 45px;
     border-radius: 50%;
     background: #D0D5D9;
-    flex-shrink: 0;
-    margin-right: 5px;
+    flex: 1 0 auto;
+    margin: 0 3px 5px; /* topo | direita e esquerda | embaixo*/
+}
+
+/* PHOTOS E VIDEOS */
+div.wrapper-content aside.profile .images ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.wrapper-content aside.profile .images ul li {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    background: #D0D5D9;
+    flex: 1 0 auto; /* auto é a propriedade padrão do flex-base (pouco usado) */
+    margin: 0 3px 5px; /* topo | direita e esquerda | embaixo*/
 }
