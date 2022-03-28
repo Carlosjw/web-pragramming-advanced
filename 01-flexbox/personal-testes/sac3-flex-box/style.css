@@ -112,8 +112,8 @@ main.main-content {
 main.main-content .first-panel {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    /* align-items: center;
+    justify-content: center; */
     height: 100vh;
     border: 1px solid red;
     margin-bottom: 5px;
