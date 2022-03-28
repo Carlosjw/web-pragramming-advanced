@@ -21,6 +21,11 @@ header.navbar ul li{
     display: flex;
     align-items: center;
     color: #fff;
+    border-right: 30px;
+}
+
+header.navbar ul li:hover {
+    background: #2C725E;
 }
 header.navbar ul li img {
     width: 24px;
