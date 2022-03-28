@@ -1,1 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.55 13c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.37-.66-.11-1.48-.87-1.48H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2h7.45zM6.16 6h12.15l-2.76 5H8.53L6.16 6zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64 Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="450.149mm" height="450.003mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 63108.48 63088.11"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#373435;stroke-width:28.04;stroke-miterlimit:22.9256}
+    .fil0 {fill:white}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0 str0" d="M23755.36 28390.94l-7472.89 -15764.44 38308.18 0 -8701.47 15764.44 -22133.82 0zm22133.82 6306.24c2364.27,0 4446.05,-1292.93 5517.39,-3247.29l11287.32 -20461.9c1166.66,-2080.63 -346.77,-4666.52 -2743.15,-4666.52l-46662.89 -1.21 -2963.63 -6306.24 -10310.2 1.21 0 6306.24 6306.24 -1.21 11350.51 23930.87 -4256.57 7693.33c-2302.28,4224.41 724.5,9363.99 5517.35,9363.99l37835.05 0 0 -6306.24 -37835.05 0 3467.75 -6306.24 23489.89 1.22z"/>
+  <path class="fil0 str0" d="M25237.82 56766.64c0,-3468.92 -2837.36,-6306.24 -6306.27,-6306.24l0 1.16c-3467.73,0 -6274.09,2837.36 -6274.09,6306.24 0,3468.94 2805.19,6305.08 6274.09,6305.08 3468.91,0 6306.27,-2837.36 6306.27,-6306.24z"/>
+  <path class="fil0 str0" d="M50460.36 50461.57c-3467.72,0 -6274.07,2837.36 -6274.07,6306.24 0,3468.94 2806.35,6306.28 6274.07,6306.28 3467.72,0 6306.24,-2837.35 6306.24,-6306.28 0,-3468.88 -2837.3,-6306.24 -6306.24,-6306.24z"/>
+ </g>
+</svg>
