@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #3FA387;
+}
+
+header.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+header.navbar ul li{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+header.navbar ul li img {
+    width: 24px;
+    height: 24px;
+    margin-left: 30px;
+    margin-right: 5px;
+    color: #fff;
+}
