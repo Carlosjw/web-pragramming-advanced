@@ -11,21 +11,21 @@ body,
     display: flex;
 
     /* Mudando a direçao do flex com flex-direction. Padrão é row */
-    flex-direction: column;
+    flex-direction: row;
 
     /* No flex-direction: colum há uma inversão do align-items, que passa a alinhar horizontalmente, enquanto o justify-content passa a alinhar verticalmente */
 
     /* Propriedades mais usadas no flex-box: align-items e justify-content */
-    /*     
+    /*
         Padrão: alinhamento vertical
         * Propriedades principais:
             - flex-start: alinha  horizontalmente sempre no início;
             - center: alinha horizontalmente no centro da view;
             - flex-end: alinha  horizontalmente sempre no final.
      */
-    align-items:center; 
+    align-items:center;
 
-    /*     
+    /*
         Padrão: alinhamento horizontal
         * Propriedades principais:
             - flex-start: alinha verticalmente sempre no início;

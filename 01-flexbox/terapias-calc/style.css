@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background: silver;
+    font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+}
+
+div {
+    border: 1px solid red;
+    padding: 5px;
+}
+
+
+div.principal {
+    display: flex;
+    background: gray;
+    flex-wrap: wrap;
+}
+
+div.principal .filha {
+    display: flex;
+    /* flex-direction: column; */
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background: rgba(179, 177, 177, 0.6);
+    width: 400px;
+    height: 600px;
+    border: 5px solid white;
+    border-radius: 0 25px 0px 25px;
+}
+
+div.principal .filha .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.principal .filha .title strong {
+    margin-top: -15px;
+    margin-left: -15px;
+
+    padding: 5px;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(12, 67, 131);
+    color: white;
+    padding: 5px;
+    border: 5px solid white;
+    border-radius: 25%;
+}
+
+div.principal .filha .title span{
+    margin-top: -15px;
+    margin-right: 5px;    
+    padding: 15px;
+    font-weight: normal;
+    background: rgb(111, 245, 222);
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+div.principal .filha .neta {
+    margin: 10px;  
+    display: flex;
+    flex-direction: column;    
+    padding: 5px;
+    border-left: 2px solid white;
+}
+
+div.principal .filha .neta .bisneta {
+    margin-top: 10px;
+    margin-right: 5px;
+    border-top: 2px solid white;
+
+    padding: 5px;
+
+}
+
+div.principal .filha .neta .quant-valor {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.principal .filha .neta .quant-valor input {
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div.principal .filha .neta .quant-valor input:first-child{
+    margin-bottom: 5px;
+}
+
+div.principal .filha .neta .quant-valor input::-webkit-input-placeholder {
+    text-align: center;
+    font-size: 14px;
+}
+
+div.principal .filha .neta .quant-valor label {
+    margin-top: 5px;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
